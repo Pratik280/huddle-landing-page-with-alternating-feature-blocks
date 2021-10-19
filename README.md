@@ -21,15 +21,15 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./assets/screenshots/00ss.png)
-![](./assets/screenshots/01ss.png)
-
 ### Links
 
 - Source Code : [Github](https://github.com/Pratik280/huddle-landing-page-with-alternating-feature-blocks)
 - Live Site : [https://pratik280.github.io/huddle-landing-page-with-alternating-feature-blocks/](https://pratik280.github.io/huddle-landing-page-with-alternating-feature-blocks/)
+
+### Screenshot
+
+![](./assets/screenshots/00ss.png)
+![](./assets/screenshots/01ss.png)
 
 ## My process
 
