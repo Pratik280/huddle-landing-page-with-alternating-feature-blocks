@@ -1,0 +1,25 @@
+// btn mixin
+@use "../01-custom-properties/colors-and-fonts";
+
+@mixin mixin-btn( $pd-blk, $pd-inline){
+
+  display: inline-block;
+
+  color: var(--clr-secondary-one);
+  font-family: var(--ff-primary-two);
+  font-size: var(--fs-500);
+  font-weight: 700;
+
+  padding-block: $pd-blk;
+  padding-inline: $pd-inline;
+
+  background: var(--clr-primary-one);
+  border-radius: 50vw;
+
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1),
+              0 3px 6px 0 rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    background: var(--clr-primary-two);
+  }
+}

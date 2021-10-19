@@ -1,0 +1,17 @@
+@forward '../03-layouts/header';
+@forward '../03-layouts/footer';
+
+.header, 
+.main, { 
+  padding: 2.5rem 0;
+  @media (min-width: 40em) {
+    padding: 4rem 0;
+  }
+}
+
+.footer {
+  padding-top: 2.5rem;
+  @media (min-width: 40em) {
+    padding-top: 4rem;
+  }
+}

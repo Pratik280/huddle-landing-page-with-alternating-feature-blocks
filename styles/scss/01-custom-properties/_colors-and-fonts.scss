@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Open Sans Regular"; // fw 400
+  src: url(/assets/fonts/OpenSans-Regular.ttf); 
+}
+@font-face {
+  font-family: "Open Sans Bold"; // fw 700
+  src: url(/assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins SemiBold"; // fw 600 headings
+  src: url(/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+:root{
+
+  --clr-primary-one: hsl(322, 100%, 66%);
+  --clr-primary-two: hsl(322, 98%, 80%);
+
+  --clr-secondary-one: hsl(193, 100%, 96%);
+  --clr-seconday-two: hsl(192, 100%, 9%);
+  --clr-seconday-three: hsl(208, 11%, 55%);
+
+  --clr-hero-bg: hsl(197, 100%, 96%);
+  --clr-white: hsl(217, 0%, 100%);
+
+  font-size: 62.5%;
+  --ff-primary-one: 'Open Sans Regular', sans-serif;
+  --ff-primary-two: 'Open Sans Bold', sans-serif;
+  --ff-secondary: 'Poppins SemiBold', sans-serif;
+
+  --fs-700: clamp(3.5rem, 5vw, 2.5rem);
+  --fs-600: clamp(2.5rem, 3vw, 2rem);
+  --fs-500: clamp(1rem, 1vw, 1.4rem);
+  --fs-400: clamp(1.5rem, 1vw, 1.5rem);
+}
+
+/* ==== TYPOGRAPHY MIXINS ==== */
+
+// heading fs-500 and subheading fs-700
+
+@mixin heading-text($font-size){
+  font-family: var(--ff-secondary);
+  font-size: $font-size;
+  font-weight: 600;
+  color: var(--clr-seconday-two);
+}
+
+@mixin paragraph-text($font-color){
+  font-family: var(--ff-primary-one);
+  font-size: var(--fs-400);
+  font-weight: 400;
+  color: $font-color;
+}
+
+@mixin btn-text($font-color){
+  font-family: var(--ff-primary-two);
+  font-size: var(--fs-500);
+  font-weight: 700;
+  color: $font-color;
+}

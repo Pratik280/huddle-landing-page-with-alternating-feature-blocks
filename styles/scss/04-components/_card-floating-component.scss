@@ -1,0 +1,26 @@
+@use "../01-custom-properties/custom-properties";
+@use "../02-helpers/helpers";
+
+.card-floating {
+
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1),
+              0 3px 6px 0 rgba(0, 0, 0, 0.05);
+
+  width: min(100%, 90rem);
+  margin-inline: auto;
+  padding: 5rem;
+  text-align: center;
+  border-radius: 2rem;
+
+  &__header {
+    font-family: var(--ff-secondary);
+    font-weight: 600;
+    font-size: var(--fs-600);
+    color: var(--clr-seconday-two);
+  }
+
+  &__btn {
+    margin-top: 2.5rem;
+    @include helpers.mixin-btn(1.5rem, 5rem);
+  }
+}
