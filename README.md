@@ -23,13 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-<<<<<<< HEAD
 ![](./assets/screenshots/00ss.png)
 ![](./assets/screenshots/01ss.png)
-=======
-![](assets/screenshots/00ss.png)
-![](assets/screenshots/01ss.png)
->>>>>>> origin/main
 
 ### Links
 
